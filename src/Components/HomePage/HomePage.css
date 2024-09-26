@@ -1,0 +1,23 @@
+.home-banner{
+    background: url('C:\Users\Administrator\Desktop\thrillzone\src\assets\img\home-banner.png')  no-repeat;
+    height: 800px;
+   
+}
+.about-banner{
+    background: url('C:\Users\Administrator\Desktop\thrillzone\src\assets\img\about-banner.png')  no-repeat;
+    height: 800px;  
+}
+.party{
+    background: url('C:\Users\Administrator\Desktop\thrillzone\src\assets\img\party.png')  no-repeat;
+    height: 800px;  
+}
+.gallery{
+    background: url('C:\Users\Administrator\Desktop\thrillzone\src\assets\img\gallery.png')  no-repeat;
+    height: 800px;  
+}
+.center{
+    align-self: center;
+}
+.bottom{
+    align-self:last baseline;
+}

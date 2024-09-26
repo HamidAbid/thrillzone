@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'space-mission';
+  src: url('./assets/font/space_mission/SPACE\ MISSION.otf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/font/Poppins/Poppins-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Poppins-500';
+  src: url('./assets/font/Poppins/Poppins-Regular.otf');
+}
+
+.main-bg {
+  background-color: #05061E;
+}
+
+
+
+.birthday_top-bg {
+  background-image: url(./assets/img/bg-image.png);
+}
+
+.blueBtn {
+  background-image: url(./assets/img/blueBtnBg.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border: 0;
+  padding: 34px;
+}
+
+.text-blue {
+  color: #2844C3
+}
+
+.text-green {
+  color: #98CF17;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-dark-blue {
+  color: #1F307E
+}
+
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.w-fitContent {
+  width: fit-content;
+}
+
+.w-108 {
+  width: 108%;
+}
+
+.w-18ch {
+  width: 18ch;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.top-30 {
+  top: 30px;
+}
+
+.font-space {
+  font-family: 'space-mission';
+}
+
+.font-poppins {
+  font-family: 'Poppins';
+}
+
+.font-poppins-500 {
+  font-family: 'Poppins-500';
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-7vw {
+  font-size: clamp(50px, 7vw, 100px)
+}
+
+.fs-5vw {
+  font-size: clamp(35px, 7vw, 70px)
+}
+
+.fs-3vw {
+  font-size: clamp(33px, 5vw, 60px)
+}
+.fs-2vw {
+  font-size: clamp(30px, 4vw, 50px)
+}
+
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.videoClip {
+  width: 80%;
+  height: 32%;
+  margin: 0 auto;
+}
+
+.videoClip iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.videoClip .video-control-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.videoClip .video-control-btn img {
+  width: 50px;
+  /* Adjust size as needed */
+  height: 50px;
+  /* Adjust size as needed */
+}
+
+.HalfImg {
+  width: 50%;
+  height: 400px;
+}
+
+.text-white-1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.buttonToParallelogram {
+  bottom: -10%;
+  left: 10%;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #98CF17;
+}
+
+.white-image-button {
+  background-image: url('./assets/img/whiteBtn.svg');
+  background-size: contain;
+  /* Ensures the image covers the entire button */
+  background-position: center;
+  /* Centers the image */
+  line-height: 50px;
+  /* Centers the text vertically */
+  cursor: pointer;
+  /* Changes the cursor to pointer on hover */
+  background-repeat: no-repeat;
+}
+
+.white-image-button:hover {
+  opacity: 0.8;
+  /* Adds a slight opacity change on hover */
+}
+
+.about-us_content {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.divider {
+  border-bottom: 1px solid #2844C3;
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    clip-path: none;
+  }
+
+  .banner-content {
+    font-size: 35px;
+    width: unset;
+  }
+
+  .blue-haxagon-left .blue-inner {
+    padding: 0px 29px;
+    font-size: 12px;
+  }
+
+  .about-content {
+    font-size: 24px;
+  }
+
+  .white-image-button {
+    line-height: 38px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+.input-feild {
+  border-radius: 6px !important;
+  border: 1px solid #EAEAEA26 !important;
+}
